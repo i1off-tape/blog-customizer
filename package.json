@@ -45,6 +45,7 @@
 		"resolve-url-loader": "^5.0.0",
 		"sass": "^1.69.7",
 		"sass-loader": "^13.3.3",
+		"standard-version": "^9.5.0",
 		"storybook": "^8.0.5",
 		"style-loader": "^3.3.3",
 		"stylelint": "^16.1.0",
