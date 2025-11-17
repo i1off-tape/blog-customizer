@@ -29,6 +29,10 @@ const App = () => {
 					'--font-color': currentArticleState.fontColor.value,
 					'--container-width': currentArticleState.contentWidth.value,
 					'--bg-color': currentArticleState.backgroundColor.value,
+					'--image-width':
+						currentArticleState.contentWidth.value === '1394px'
+							? '100vw'
+							: '100%',
 				} as CSSProperties
 			}>
 			<ArticleParamsForm

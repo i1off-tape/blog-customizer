@@ -14,7 +14,8 @@
 }
 
 .image {
-	width: 100%;
+	width: var(--image-width, 100%);
+	max-width: none;
 	height: auto;
-	margin-top: 26px;
+	margin: 26px calc(50% - 50vw) 0;
 }

@@ -67,7 +67,9 @@ export const ArticleParamsForm = ({
 						e.preventDefault();
 						setCurrentArticleState(selectArticleState);
 					}}>
-					<Text size={38}>Задайте параметры</Text>
+					<Text size={31} weight={800} uppercase={true}>
+						Задайте параметры
+					</Text>
 					<Select
 						selected={selectArticleState.fontFamilyOption}
 						title='Шрифт'
